@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Solanki | Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <span class="loader-text">DHRUV SOLANKI</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#home">DS<span>.</span></a>
+                </div>
+                <div class="nav-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#work" class="nav-link">Work</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="reveal-text">Dhruv <span>Solanki</span></h1>
+                <div class="hero-subtitle">
+                    <div class="subtitle-line"></div>
+                    <p class="reveal-text-2">Creative Designer & Developer</p>
+                </div>
+                <div class="hero-description reveal-text-3">
+                    <p>Crafting digital experiences that blend innovation with aesthetic excellence.</p>
+                </div>
+                <div class="hero-btn reveal-text-3">
+                    <a href="#work" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Replace with actual image URL -->
+            <img src="dhruv_card.jpg" alt="Dhruv Solanki">
+            <div class="hero-image-overlay"></div>
+        </div>
+        <div class="scroll-indicator">
+            <p>Scroll Down</p>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image reveal-image">
+                    <!-- Replace with actual image URL -->
+                    <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&auto=format&fit=crop&w=695&q=80" alt="About Dhruv">
+                </div>
+                <div class="about-text">
+                    <h3 class="reveal-text-2">Hello, I'm Dhruv</h3>
+                    <p class="reveal-text-3">I'm a passionate creative professional with expertise in design and development. With a keen eye for aesthetics and a mind for technical solutions, I create digital experiences that are both beautiful and functional.</p>
+                    <p class="reveal-text-3">My approach combines innovative thinking with practical execution to deliver projects that exceed expectations and create lasting impact.</p>
+                    <div class="skills reveal-text-3">
+                        <div class="skill">
+                            <span>Design</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Development</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Photography</span>
+                            <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">My Work</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="work-filter reveal-text-2">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="work-grid">
+                <div class="work-item design reveal-image">
+                    <div class="work-image">
+                        <!-- Replace with actual image URL -->
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Project 1">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-info">
+                            <h3>Modern UI Design</h3>
+                            <p>Design / 2023</p>
+                            <a href="#" class="work-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item development reveal-image">
+                    <div class="work-image">
+                        <!-- Replace with actual image URL -->
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1015&q=80" alt="Project 2">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-info">
+                            <h3>E-commerce Platform</h3>
+                            <p>Development / 2023</p>
+                            <a href="#" class="work-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item branding reveal-image">
+                    <div class="work-image">
+                        <!-- Replace with actual image URL -->
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Project 3">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-info">
+                            <h3>Brand Identity</h3>
+                            <p>Branding / 2023</p>
+                            <a href="#" class="work-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item design reveal-image">
+                    <div class="work-image">
+                        <!-- Replace with actual image URL -->
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Project 4">
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-info">
+                            <h3>App Interface</h3>
+                            <p>Design / 2023</p>
+                            <a href="#" class="work-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info reveal-text-2">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>dhruv@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form reveal-text-3">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">DS<span>.</span></a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Dhruv Solanki. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
